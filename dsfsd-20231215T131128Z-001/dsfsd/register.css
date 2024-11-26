@@ -1,0 +1,113 @@
+body {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: #349C6D;
+	min-height: 100vh;
+}
+
+.container {
+	height: 480px;
+	width: 420px;
+	background: #2F7E38;
+	border: 5px solid yellow;
+	border-radius: 20px;
+	color: #fff;
+	position: relative;
+}
+
+button {
+	margin-top: 1rem;
+	padding: 5px 20px;
+	position: absolute;
+	left: 10rem;
+}
+
+.container .img img{
+	width: 100px;
+	height: 110px;
+}
+
+.container .img{
+	text-align: center;
+}
+
+.container h1 {
+	text-align: center;
+}
+
+.container .input-box{
+	text-align: center;
+}
+
+.input-box input {
+	width: 200px;
+	padding: 10px;
+	outline: none;
+	border: none;
+}
+
+.regis-link {
+	display: flex;
+	justify-content: space-between;
+	margin: 3rem 1rem 0 1rem; 
+}
+
+.regis-link p a {
+	color: #C0FF00;
+	text-decoration: none;
+}
+
+.back {
+	width: 110px;
+	margin-left: 1rem;
+}
+
+.back a {
+	color: #fff;
+	text-decoration: none;
+}
+
+.container1 {
+	height: 580px;
+	width: 420px;
+	background: #2F7E38;
+	border: 5px solid yellow;
+	border-radius: 20px;
+	color: #fff;
+	position: relative;
+}
+
+.container1 .input-box{
+	text-align: center;
+}
+
+.container1 .img img{
+	width: 100px;
+	height: 110px;
+}
+
+.container1 .input-box{
+	text-align: center;
+}
+
+.container1 h1 {
+	text-align: center;
+}
+
+.container1 .img{
+	text-align: center;
+}
+
+.back1 {
+	width: 110px;
+	margin-left: 1rem;
+}
+
+.back1 a {
+	color: #fff;
+	text-decoration: none;
+}

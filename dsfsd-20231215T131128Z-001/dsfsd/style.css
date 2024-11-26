@@ -1,0 +1,298 @@
+body {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	background-color: #349C6D;
+	position: relative;
+}
+.container1 {
+	max-width: 1220px;
+	margin: 0 auto;
+/*	border: 1px solid purple;*/
+	position: absolute;
+	top:700px;
+	left: 320px;
+	background-color: #2F7E38;
+	border-radius: 20px;
+	border: 3px solid yellow;
+}
+
+nav {
+	display: flex;
+	text-align: center;
+	align-items: center;
+	background-color: #2F7E38;
+	border-radius: 20px;
+	border-bottom: 3px solid yellow;
+	position: relative;
+	font-size: 23px;
+}
+
+ul li a ,ul li {
+	color: #fff;
+	text-decoration: none;
+	list-style: none;
+}
+
+.logo img {
+	width: 100px;
+	height: 110px;
+	margin-left: 2rem;
+}
+
+.menu ul {
+	display: flex;
+	text-align: center;
+	align-items: center;
+}
+
+.login ul {
+	display: flex;
+	text-align: center;
+	align-items: center;
+}
+
+.login {
+	position: absolute;
+	right: 30px;
+}
+
+.login ul li {
+	background-color: #349C6D;
+	border-radius: 10px;
+	padding: 10px;
+}
+
+ul li {
+	margin-right: 20px;
+}
+
+.menu ul {
+	margin-left: 3rem;
+}
+
+.banner1 {
+	position: absolute;
+	right: 23rem;
+	top: 10rem;
+	border-radius: 20px;
+	border: 3px solid yellow;
+	height: 456px;
+}
+
+.banner1 img {
+	border-radius: 20px;
+}
+
+
+
+.banner-con {
+	display: grid;
+	grid-template-columns: repeat(2 ,1fr);
+	column-gap: 2rem;
+	margin: 2rem 1rem;
+/*	margin-top: 40rem;*/
+/*	border: 1px solid red;*/
+}
+
+.banner-list {
+/*	border: 1px solid yellow;*/
+}
+
+.bannerimg img {
+	width: 100%;
+	height: 230px;
+	border-radius: 30px;
+}
+.bannerimg {
+/*	width: 100%;*/
+	height: 230px;
+	border: 3px solid yellow;
+	border-radius: 30px;
+}
+
+.container1 h1 {
+	/*	margin-left: 61rem;
+	background-color: #349C6D;
+	border-radius: 20px;
+	width: 200px;
+	padding: 10px;*/
+	color: #fff;
+	margin-left: 1rem;
+}
+
+.container1 a  {
+	text-decoration: none;
+	color: #fff;
+	margin-right: 1rem;
+}
+
+.container2 {
+/*	border: 1px solid red;*/
+	max-width: 1250px;
+	margin: 0 auto;
+	margin-top: 70rem;
+}
+
+.product-con {
+	display: grid;
+	grid-template-columns: repeat(4,1fr);
+	grid-gap: 0.5rem;
+/*	border: 1px solid pink;*/
+}
+
+.title {
+	display: flex;
+	justify-content: space-between;
+}
+
+.title a{
+	transition: 0.5s;
+}
+
+.title a:hover {
+	border: 2px solid yellow;
+	border-radius: 20px;
+}
+
+.product-detail {
+	padding: 1rem;
+}
+
+.product-item {
+	box-shadow: 0 0 5px black;
+	background-color: #2F7E38;
+	border-radius: 20px;
+	transition: 0.3s;
+}
+
+.product-item:hover {
+	border: 3px solid yellow;
+}
+
+.product-img img {
+	width: 100%;
+}
+
+.product-price {
+	display: flex;
+	padding: 1rem;
+	justify-content: space-between;
+	align-items: center;
+	
+}
+
+.product-right span {
+	font-size: 12px;
+}
+
+.container2 h1{
+	color: #fff;
+}
+
+.title2 {
+	display: flex;
+	justify-content: space-between;
+}
+
+.title2 a {
+	text-decoration: none;
+	transition: 0.5s;
+}
+
+.title2 a:hover {
+	border: 2px solid yellow;
+	border-radius: 20px;
+}
+
+footer {
+	padding: 2rem;
+	background-color: #1A6819;
+	color: #fff;
+	text-align: center;
+}
+
+.product-item button {
+	padding: 1rem 20px;
+	border-radius: 20px;
+}
+
+.container3 {
+	height: 100rem;
+	border-radius: 20px;
+	box-shadow: 0 0 0 0.1px #000;
+	background: #fff;
+/*	border: 1px solid red;*/
+	max-width: 1250px;
+	margin: 0 auto;
+/*	margin-top: 70rem;*/
+}
+
+.product-con1 {
+	display: grid;
+	grid-template-columns: repeat(4,1fr);
+	grid-gap: 0.5rem;
+/*	border: 1px solid pink;*/
+}
+
+.product-detail1 {
+	padding: 1rem;
+}
+
+.product-item1 {
+	box-shadow: 0 0 5px black;
+	background-color: #2F7E38;
+	border-radius: 20px;
+	transition: 0.3s;
+}
+
+.product-item1:hover {
+	border: 3px solid yellow;
+}
+
+.product-img1 img {
+	width: 100%;
+}
+
+.product-price1 {
+	display: flex;
+	padding: 1rem;
+	justify-content: space-between;
+	align-items: center;
+	
+}
+
+.product-right1 span {
+	font-size: 12px;
+}
+
+/*
+.container3 h1{
+	color: #fff;
+}
+*/
+
+.product-item1 button {
+	padding: 1rem 20px;
+	border-radius: 20px;
+}
+
+.banner-pro {
+	margin: auto;
+	margin-bottom: 2rem;
+	border: 2px solid yellow;
+	background: #2F7E38;
+	border-radius: 20px;
+	width: 400px;
+	height: 100px;
+	color: #fff;
+}
+
+.banner-pro h1 {
+	text-align: center;
+}
+
+input {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}

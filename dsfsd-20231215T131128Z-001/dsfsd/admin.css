@@ -1,0 +1,96 @@
+body {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	background-color: #349C6D;
+	position: relative;
+}
+
+nav {
+	display: flex;
+	text-align: center;
+	align-items: center;
+	background-color: #2F7E38;
+	border-radius: 20px;
+	border-bottom: 3px solid yellow;
+	position: relative;
+	font-size: 23px;
+}
+
+ul li a ,ul li {
+	color: #fff;
+	text-decoration: none;
+	list-style: none;
+}
+
+.logo img {
+	width: 100px;
+	height: 110px;
+	margin-left: 2rem;
+}
+
+.menu ul {
+	display: flex;
+	text-align: center;
+	align-items: center;
+}
+
+.login ul {
+	display: flex;
+	text-align: center;
+	align-items: center;
+}
+
+.login {
+	position: absolute;
+	right: 30px;
+}
+
+.login ul li {
+	background-color: #349C6D;
+	border-radius: 10px;
+	padding: 10px;
+}
+
+ul li {
+	margin-right: 20px;
+}
+
+.menu ul {
+	margin-left: 3rem;
+}
+
+.edit {
+	background-color: #2F7E38;
+	margin-top: 3rem;
+	border: 3px solid yellow;
+	width: 30rem;
+	display: flex;
+	justify-content: center;
+	height: 45rem;
+}
+
+.container .edit{
+	margin-left: 42rem;
+	border-radius: 20px;
+}
+
+.edit input{
+	padding: 10px 5px;
+	border-radius: 20px;
+/*	margin-top: 1rem;*/
+	font-size: 20px;
+}
+
+button {
+	padding: 1rem 5rem;
+	border-radius: 20px;
+	margin-top: 3.5rem;
+	margin-left: 2rem;
+}
+
+h3 {
+ border: 1px solid red;
+ text-align: center;
+/*	margin-top: 3rem;*/
+}
